@@ -10,22 +10,23 @@ body {
 
   font-family: 'Roboto', sans-serif;
 
-  width: 100%;
   height: 100vh;
 
   display: flex;
   flex-direction: column;
+  align-items: center
 }
 
 .header {
-  background-color: #1F2937;
   padding: 16px 250px 150px 250px;
+  background-color: #1F2937;
+  margin: 0;
 
   display: flex;
   flex-direction: column;
 }
 
-nav {
+.header nav {
   display: flex;
   justify-content: space-between;
 
@@ -103,6 +104,7 @@ nav {
   background-color: #3882F6;
   color: #E5E7EB;
   padding: 10px 25px;
+  border: 1px solid #E5E7EB;
   border-radius: 10px;
 }
 
@@ -153,7 +155,6 @@ nav {
   background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -167,4 +168,34 @@ nav {
 
   font-size: 20px;
   font-weight: bolder;
+}
+
+.call-to-action {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1000px;
+  padding: 40px 100px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action .left-side {
+  color: #E5E7EB;
+}
+
+.call-to-action .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.call-to-action button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: 1px solid #E5E7EB;
+  padding: 5px 30px 5px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
 }
