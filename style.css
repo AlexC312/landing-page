@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;F2937;,400&display=swap');
 
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
   font-family: 'Roboto', sans-serif;
 
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -141,4 +146,25 @@ nav {
 .image p {
   max-width: 200px;
   text-align: center;
+}
+
+.quote {
+  padding: 150px 350px 150px 350px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.quote div {
+  align-self: flex-end;
+
+  font-size: 20px;
+  font-weight: bolder;
 }
